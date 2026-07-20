@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+  /* Palette drawn from the blue swatch sheet */
+  --color-navy: #011f5b;        /* deep navy — primary */
+  --color-navy-dark: #001933;   /* near-black navy */
+  --color-sapphire: #082567;    /* sapphire navy */
+  --color-accent: #246bce;      /* mid corporate blue */
+  --color-royal: #4169e1;       /* royal blue */
+  --color-sky: #87cefa;         /* light sky blue */
+  --color-ice: #cce5ff;         /* pale blue tint */
+  --color-alice: #f0f8ff;       /* alice blue background tint */
+  --color-steel: #5b6472;       /* neutral body grey */
+  --color-line: #e3e7ee;
+
+  --font-serif: "EB Garamond", Garamond, Georgia, "Times New Roman", serif;
+  --font-sans: "Segoe UI", ui-sans-serif, system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #ffffff;
+  color: var(--color-navy-dark);
+  font-family: var(--font-serif);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--color-ice);
+  color: var(--color-navy);
+}

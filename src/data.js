@@ -39,8 +39,34 @@ export const education = {
   note: 'Class of 2029',
 };
 
+export const propertyProject = {
+  name: '7320 East Belleview Street',
+  location: 'South Scottsdale, Arizona',
+  pdf: 'Bruce-Yu-Pitch-2026.pdf',
+  overview:
+    'A 21-unit low-rise townhouse and patio-home community built in 1960 and renovated in 2025. 15,520 rentable square feet across 1bd/1ba, 2bd/1ba, and 2bd/1.5ba plans, refreshed by a $900,000 exterior capital program covering HVAC, pool plaster, paint, landscaping, and iron gates. Minutes from SkySong and Old Town Scottsdale, on the edge of South Scottsdale in a low-crime pocket with high asking rents and low vacancy relative to the metro. Underwritten at $6,615,000 — a 7% undercut of the asking price.',
+  highlights: [
+    {
+      title: 'Pro Forma Analysis',
+      description:
+        'Projected equity return of about 13% a year (roughly 9% before leverage), built on deliberately conservative assumptions — rents grow just 2% a year and expenses sit at market averages. Cash flow dips in the first couple of years as units turn over, then strengthens as occupancy recovers. The upside comes from steady rent growth and a stronger resale value at exit.',
+    },
+    {
+      title: 'Comparable Analysis',
+      description:
+        'The $6.6M price matches what comparable South Scottsdale properties recently sold for, and the yield on the deal sits in the local market\u2019s normal range. Buying about 7% below the asking price adds built-in cushion — so the projected growth comes from the market and the renovations, not from overpaying.',
+    },
+    {
+      title: 'Economic Research',
+      description:
+        'Metro Phoenix is still adding people, jobs, and income: median household income is up 4% to $91,800, unemployment (3.6%) sits below the national rate, and a $520B wave of industrial investment (TSMC, LG, Amcorp) keeps drawing workers in. Apartment absorption is running well above its historical pace, and renting still costs far less than buying — supporting the rent growth behind this deal.',
+    },
+  ],
+};
+
 export const navLinks = [
   { label: 'About', href: '#about' },
+  { label: 'Projects', href: '#projects' },
   { label: 'Experience', href: '#experience' },
   { label: 'Education', href: '#education' },
   { label: 'Contact', href: '#contact' },

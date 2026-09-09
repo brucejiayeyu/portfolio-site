@@ -2,6 +2,7 @@ import Nav from './components/Nav.jsx';
 import Hero from './components/Hero.jsx';
 import About from './components/About.jsx';
 import FocusAreas from './components/FocusAreas.jsx';
+import Projects from './components/Projects.jsx';
 import Experience from './components/Experience.jsx';
 import Education from './components/Education.jsx';
 import Contact from './components/Contact.jsx';
@@ -15,6 +16,7 @@ export default function App() {
       <main>
         <About />
         <FocusAreas />
+        <Projects />
         <Experience />
         <Education />
         <Contact />

@@ -64,6 +64,17 @@ export default function Hero() {
           >
             LinkedIn
           </motion.a>
+          {profile.resume && (
+            <motion.a
+              whileHover={{ y: -2 }}
+              whileTap={{ scale: 0.97 }}
+              href={`${import.meta.env.BASE_URL}${profile.resume}`}
+              download
+              className="inline-block border border-navy px-7 py-3 text-[0.85rem] uppercase tracking-[0.08em] text-navy transition-colors hover:bg-alice"
+            >
+              Download Resume
+            </motion.a>
+          )}
           <motion.a
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.97 }}

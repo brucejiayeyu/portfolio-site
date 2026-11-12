@@ -5,6 +5,8 @@ export const profile = {
   location: 'Toronto, Ontario, Canada',
   school: "Queen's University '29",
   linkedin: 'https://www.linkedin.com/in/bruce-yu-8927312a6/',
+  // Set to the PDF's filename in /public (e.g. 'Bruce-Yu-Resume.pdf') to show the Download Resume button.
+  resume: '',
 };
 
 export const about = [
@@ -26,9 +28,30 @@ export const experience = [
     org: 'Novacast AI — AI-powered growth & outbound platform',
     date: 'Jan 2026 – Mar 2026',
     bullets: [
-      'Conducted product research and user feedback analysis for an AI-driven outreach and podcast-booking platform used by founders and executives.',
-      'Translated consumer insight into actionable product recommendations, working at the intersection of market demand and product strategy.',
+      'Evaluated the platform\u2019s product design and website layout from a target-customer perspective, breaking down how users navigate and respond to each page.',
+      'Delivered consumer feedback and recommendations directly to leadership, informing improvements to the product experience and site design.',
     ],
+  },
+  {
+    title: 'Co-founder',
+    org: 'Konbini Plushies \u2014 online plush toy & merchandise store',
+    date: 'Jun 2024 \u2013 Oct 2024',
+    bullets: [
+      'Co-founded an online e-commerce store specializing in unique plush toys and merchandise.',
+      'Ran organic advertising campaigns on TikTok and Instagram, generating $3K in total revenue.',
+      'Used generative AI to enhance product images, increasing click-through rate by 17%.',
+    ],
+  },
+];
+
+export const skills = [
+  {
+    label: 'Technical',
+    items: ['Excel Financial Modelling', 'Pro Forma', 'IRR', 'Debt Sizing', 'Comparable Sales'],
+  },
+  {
+    label: 'Languages',
+    items: ['English (Fluent)', 'Mandarin (Conversational)'],
   },
 ];
 
@@ -58,7 +81,7 @@ export const propertyProject = {
     {
       title: 'Economic Research',
       description:
-        'Metro Phoenix is still adding people, jobs, and income: median household income is up 4% to $91,800, unemployment (3.6%) sits below the national rate, and a $520B wave of industrial investment (TSMC, LG, Amcorp) keeps drawing workers in. Apartment absorption is running well above its historical pace, and renting still costs far less than buying — supporting the rent growth behind this deal.',
+        'Metro Phoenix is still adding people, jobs, and income: median household income is up 4% to $91,800, unemployment (3.6%) sits below the national rate, and a $520B wave of industrial investment (TSMC, LG, Amkor) keeps drawing workers in. Apartment absorption is running well above its historical pace, and renting still costs far less than buying — supporting the rent growth behind this deal.',
     },
   ],
 };
@@ -68,5 +91,6 @@ export const navLinks = [
   { label: 'Projects', href: '#projects' },
   { label: 'Experience', href: '#experience' },
   { label: 'Education', href: '#education' },
+  { label: 'Skills', href: '#skills' },
   { label: 'Contact', href: '#contact' },
 ];

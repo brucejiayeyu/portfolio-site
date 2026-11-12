@@ -11,7 +11,6 @@ export const profile = {
 
 export const about = [
   "I am a Commerce student at the Smith School of Business at Queen's University (Class of 2029), with interests in investment banking, capital markets, corporate finance, and real estate.",
-  'My background combines analytical work in marketing and product research with organizational leadership — experience that has sharpened how I evaluate businesses, communicate with stakeholders, and execute under deadlines.',
 ];
 
 export const focusAreas = [

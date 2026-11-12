@@ -17,13 +17,12 @@ export const focusAreas = [
   'Real Estate',
   'Capital Markets',
   'Corporate Finance',
-  'Consumer Insights',
   'Product Research',
 ];
 
 export const experience = [
   {
-    title: 'Consumer Insights',
+    title: 'Marketing Intern',
     org: 'Novacast AI — AI-powered growth & outbound platform',
     date: 'Jan 2026 – Mar 2026',
     bullets: [

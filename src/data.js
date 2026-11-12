@@ -10,7 +10,7 @@ export const profile = {
 };
 
 export const about = [
-  "I am a Commerce student at the Smith School of Business at Queen's University (Class of 2029), with interests in investment banking, capital markets, corporate finance, and real estate.",
+  "I am a Commerce student at the Smith School of Business at Queen's University (Class of 2029), interested in investment banking, commercial real estate, capital markets, and corporate finance.",
 ];
 
 export const focusAreas = [
